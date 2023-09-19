@@ -1,55 +1,22 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  background-color: ${(props) => props.theme['background-color']};
+  background-color: transparent;
   width: 100%;
-  height: 4rem;
+  height: 12rem;
   display: flex;
-  align-items: center;
+  align-items: end;
   padding: 0.5rem 1rem;
-  justify-content: space-between;
-`
+  justify-content: flex-end;
+  margin: 0 0 2rem 0;
 
-export const Logo = styled.div`
-  color: ${(props) => props.theme.logo};
-  border-radius: 50%;
-  width: 2.5rem;
-  height: 2.5rem;
+  strong {
+    margin-right: 1rem;
+    text-transform: uppercase;
+  }
 
-  svg {
-    width: 2rem;
-    height: 2rem;
-  }
-  transition: filter 0.2s;
-  &:hover {
-    filter: brightness(0.7);
-  }
-`
-export const ContainerButtons = styled.div`
-  display: flex;
-  width: 80px;
-  justify-content: space-between;
-`
-
-export const DarkModeButton = styled.div`
-  svg {
-    width: 2rem;
-    height: 2rem;
-    color: ${(props) => props.theme.logo};
-  }
-  transition: filter 0.2s;
-  &:hover {
-    filter: brightness(0.7);
-  }
-`
-export const CleanTaskButton = styled.div`
-  svg {
-    width: 2rem;
-    height: 2rem;
-    color: ${(props) => props.theme.logo};
-  }
-  transition: filter 0.2s;
-  &:hover {
-    filter: brightness(0.7);
+  a {
+    text-decoration: none;
+    color: #000000;
   }
 `

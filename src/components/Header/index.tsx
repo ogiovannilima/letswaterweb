@@ -1,28 +1,28 @@
 import React from 'react'
 
-import { BsSun, BsTrash, BsListCheck } from 'react-icons/bs'
-import {
-  CleanTaskButton,
-  Container,
-  ContainerButtons,
-  DarkModeButton,
-  Logo,
-} from './styles'
+import { Container } from './styles'
 
 const Header: React.FC = () => {
   return (
     <Container>
-      <Logo>
-        <BsListCheck />
-      </Logo>
-      <ContainerButtons>
-        <DarkModeButton>
-          <BsSun />
-        </DarkModeButton>
-        <CleanTaskButton>
-          <BsTrash />
-        </CleanTaskButton>
-      </ContainerButtons>
+      <strong>
+        <a href="#">início</a>
+      </strong>
+      <strong>
+        <a href="#">let&apos;s water</a>
+      </strong>
+      <strong>
+        <a href="#">conexão</a>
+      </strong>
+      <strong>
+        <a href="#">social</a>
+      </strong>
+      <strong>
+        <a href="#">contato</a>
+      </strong>
+      <strong>
+        <a href="#">pt/en</a>
+      </strong>
     </Container>
   )
 }
