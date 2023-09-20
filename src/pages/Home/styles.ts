@@ -63,7 +63,7 @@ export const ImageCombo = styled.div`
     margin-top: 4rem;
     position: absolute;
     margin-left: 23rem;
-    top: 86rem;
+    top: 82.5rem;
   }
 `
 
