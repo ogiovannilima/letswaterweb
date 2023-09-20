@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+  /* @media (min-width: 1024px) { */
   background-color: transparent;
   width: 100%;
   height: 11rem;
@@ -19,4 +20,5 @@ export const Container = styled.div`
     text-decoration: none;
     color: #000000;
   }
+  /* } */
 `
