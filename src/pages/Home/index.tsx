@@ -13,6 +13,7 @@ import {
   ImageCombo,
   SmallText,
   BigText,
+  LogoCombo,
 } from './styles'
 
 export const Home: React.FC = () => {
@@ -20,11 +21,12 @@ export const Home: React.FC = () => {
     <>
       <Container>
         <Content>
-          <Logo>
-            <img src={LogoVertical} alt="" />
-          </Logo>
-          <img src={TwoBottles} alt="" />
-
+          <LogoCombo>
+            <Logo>
+              <img src={LogoVertical} alt="" />
+            </Logo>
+            <img src={TwoBottles} alt="" />
+          </LogoCombo>
           <Title>
             Uma{' '}
             <strong>

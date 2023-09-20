@@ -13,13 +13,19 @@ export const Content = styled.div`
   /* @media (min-width: 1024px) { */
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
   img:nth-child(2) {
     height: 35rem;
     margin-top: 4rem;
   }
   /* } */
+`
+
+export const LogoCombo = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
 `
 
 export const Logo = styled.div`
@@ -35,7 +41,8 @@ export const Logo = styled.div`
 export const Title = styled.p`
   /* @media (min-width: 1024px) { */
   font-size: 4rem;
-  margin: 0 0 0 14rem;
+  /* margin: 0 0 0 14rem; */
+  margin-left: -11rem;
   font-weight: 100;
   position: absolute;
   top: 49rem;
