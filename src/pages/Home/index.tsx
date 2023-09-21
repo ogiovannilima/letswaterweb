@@ -3,6 +3,11 @@ import LogoVertical from '../../assets/LETSWATER LOGO VERTICAL-150923-V1.png'
 import TwoBottles from '../../assets/AF_LETSWATHER_3D_EMBALAGEM_01_150923_V7.png'
 import LogoAcronym from '../../assets/LETSWATER LOGO SIGLAS-150923-V1.png'
 import MiniBottle from '../../assets/AF_LETSWATHER_3D_EMBALAGEM_01_150923_V1.png'
+import LogoHori from '../../assets/LETSWATER LOGO HORIZONTAL-150923-V1.png'
+
+import Carbon from '../../assets/SELOCARBONO.png'
+import FSC from '../../assets/SELOFSC.png'
+import Tetra from '../../assets/SELOTETRA.png'
 
 import {
   Container,
@@ -14,6 +19,11 @@ import {
   SmallText,
   BigText,
   LogoCombo,
+  Market,
+  LetsGoTag,
+  SquareCombo,
+  Square,
+  Seal,
 } from './styles'
 
 export const Home: React.FC = () => {
@@ -36,6 +46,19 @@ export const Home: React.FC = () => {
             consciente
           </Title>
         </Content>
+        <Seal>
+          <img
+            src={FSC}
+            alt=""
+            style={{ height: '5rem', marginRight: '1rem' }}
+          />
+          <img
+            src={Tetra}
+            alt=""
+            style={{ height: '5rem', marginRight: '1rem' }}
+          />
+          <img src={Carbon} alt="" style={{ height: '5rem' }} />
+        </Seal>
       </Container>
       <GoalsContent>
         <div>
@@ -66,6 +89,17 @@ export const Home: React.FC = () => {
           sua marca seja lembrada e se destaque da concorrência.
         </BigText>
       </GoalsContent>
+      <Market>
+        <LetsGoTag>
+          <p>Let&apos;s Go ?</p>
+        </LetsGoTag>
+        <img src={LogoHori} alt="" />
+        <SquareCombo>
+          <Square>01</Square>
+          <Square>02</Square>
+          <Square>03</Square>
+        </SquareCombo>
+      </Market>
     </>
   )
 }

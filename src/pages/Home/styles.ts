@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   /* @media (min-width: 1024px) { */
-  height: 75vh;
+  margin: 0 auto;
+  height: 70vh;
   width: 100vw;
   background-color: ${(props) => props.theme['background-color']};
   padding: 4rem;
@@ -26,6 +27,13 @@ export const LogoCombo = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100vw;
+`
+
+export const Seal = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 4rem;
 `
 
 export const Logo = styled.div`
@@ -61,6 +69,7 @@ export const GoalsContent = styled.div`
     height: 18rem;
   }
 `
+
 export const ImageCombo = styled.div`
   display: flex;
   justify-content: space-between;
@@ -87,4 +96,37 @@ export const BigText = styled.p`
   font-size: 20px;
   font-weight: 300;
   margin-left: 10rem;
+`
+
+export const Market = styled.div`
+  img {
+    height: 200px;
+    position: absolute;
+  }
+`
+
+export const LetsGoTag = styled.div`
+  background-color: ${(props) => props.theme['background-color']};
+  height: 3rem;
+  width: 15rem;
+  border-radius: 0 30px 30px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+`
+export const SquareCombo = styled.div`
+  width: 100vw;
+  display: flex;
+`
+
+export const Square = styled.div`
+  background-color: ${(props) => props.theme['background-color']};
+  height: 300px;
+  width: 400px;
 `
