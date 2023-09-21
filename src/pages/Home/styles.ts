@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   /* @media (min-width: 1024px) { */
   margin: 0 auto;
-  height: 70vh;
+  height: 80vh;
   width: 100vw;
   background-color: ${(props) => props.theme['background-color']};
   padding: 4rem;
@@ -17,8 +17,8 @@ export const Content = styled.div`
   justify-content: center;
 
   img:nth-child(2) {
-    height: 35rem;
-    margin-top: 4rem;
+    height: 55vh;
+    margin-top: 4vh;
   }
   /* } */
 `
@@ -29,32 +29,29 @@ export const LogoCombo = styled.div`
   width: 100vw;
 `
 
-export const Seal = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  margin-top: 4rem;
-`
-
 export const Logo = styled.div`
-  /* @media (min-width: 1024px) { */
   img {
     position: absolute;
-    height: 45rem;
-    top: 6.188rem;
-    /* } */
+    height: 80vh;
+    top: 6vh;
   }
 `
 
 export const Title = styled.p`
-  /* @media (min-width: 1024px) { */
   font-size: 4rem;
   /* margin: 0 0 0 14rem; */
   margin-left: -11rem;
   font-weight: 100;
   position: absolute;
-  top: 49rem;
-  /* } */
+  top: 70vh;
+`
+
+export const Seal = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 4vh;
+  margin-right: 5rem;
 `
 
 export const GoalsContent = styled.div`

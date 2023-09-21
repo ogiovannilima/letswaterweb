@@ -4,7 +4,7 @@ export const Container = styled.div`
   /* @media (min-width: 1024px) { */
   background-color: transparent;
   width: 100%;
-  height: 11rem;
+  height: 12vh;
   display: flex;
   align-items: end;
   padding: 0.5rem 1rem;
